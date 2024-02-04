@@ -41,5 +41,5 @@ flask run
 
 Example url
 
-http://127.0.0.1:5000/transcript?video_id=U9mJuUkhUzk
+**http://127.0.0.1:5000/transcript?video_id=U9mJuUkhUzk&languages=en**
 
