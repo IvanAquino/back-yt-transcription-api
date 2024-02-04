@@ -10,7 +10,7 @@ def get_transcript():
         return jsonify({'error': 'Missing video_id parameter'}), 400
     
     try:
-        transcript = YouTubeTranscriptApi.get_transcript(video_id, languages=['es'])
+        transcript = YouTubeTranscriptApi.get_transcript(video_id, languages=['en'])
         return jsonify(transcript)
     except Exception as e:
         return jsonify({'error': str(e)}), 500

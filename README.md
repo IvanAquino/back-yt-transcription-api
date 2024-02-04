@@ -36,3 +36,10 @@ pip install -r requirements.txt
 ```bash
 flask run
 ```
+
+### Usage
+
+Example url
+
+http://127.0.0.1:5000/transcript?video_id=U9mJuUkhUzk
+
